@@ -1,0 +1,26 @@
+body {
+	background-image: url('../images/bg.png');
+}
+
+.wrapper {
+	margin: 15px auto 0px auto;
+	overflow: hidden;
+	padding: 0px 15px;
+	width: 100%;
+
+	@include respond-to($screen-sm-min){
+		max-width: $screen-sm-min;
+	}
+
+	@include respond-to($screen-md-min){
+		max-width: $screen-md-min;
+	}
+
+	@include respond-to($screen-lg-min){
+		max-width: $screen-lg-min;
+	}
+}
+
+.font-icon {
+	font-size: 32px;
+}

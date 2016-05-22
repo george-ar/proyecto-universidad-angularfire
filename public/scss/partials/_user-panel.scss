@@ -1,0 +1,27 @@
+.user-panel {
+
+	background-color: $plain-black;
+	color: $plain-white;
+	height: 50px;
+	overflow: auto;
+
+	.actions-list {
+
+		list-style-type: none;
+		margin: 10px;
+		overflow: auto;
+		float: right;
+
+		&__item {
+			border-right: 1px solid $plain-white;
+			float: left;
+			padding: 5px 10px;
+
+			&:last-child{
+				border: none;
+			}
+		}
+
+		
+	}
+}

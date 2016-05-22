@@ -1,0 +1,11 @@
+@mixin respond-to($val, $val2: none, $val3: all) {
+    @if ($val2 == none) {
+    	@media #{$val3} and (min-width: $val) { @content; }
+
+    } @else if ($val2 == max) {
+    	@media #{$val3}  and (max-width: $val) { @content; }
+
+    } @else {
+    	@media #{$val3} and (min-width: $val) and (max-width: $val2) { @content; }
+    }
+}

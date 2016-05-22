@@ -1,0 +1,26 @@
+.inventory {
+	margin: 20px 0px;
+
+	.table-data {
+		margin: 15px 0px 0px 0px; 
+		width: 100%;
+
+		&__tbody {
+			margin-top: 10px;
+		}
+
+		&__td {
+			padding: 5px 0px;
+		}
+
+		&__th {
+			padding: 10px 0px;
+		}
+
+	}
+
+	.search-panel {
+		padding: 10px 0px;
+		border-bottom: 1px solid #888;
+	}
+}

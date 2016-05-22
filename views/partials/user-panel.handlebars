@@ -1,0 +1,18 @@
+<div class="user-panel">
+	<ul class="actions-list">
+		<li class="actions-list__item">
+			{{user.name}}
+		</li>
+		<li class="actions-list__item">
+			{{#if user.logged}}
+			<a class="actions-list__link" href="/logout">
+				logout
+			</a>
+			{{else}}
+			<a class="actions-list__link" href="/logme">
+				logme
+			</a>
+			{{/if}}
+		</li>
+	</ul>
+</div>

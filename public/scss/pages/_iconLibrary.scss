@@ -1,0 +1,31 @@
+.icon-library {
+
+	&__wrapper {
+		overflow: auto;
+	}
+
+	&__container {
+		float: left;
+		margin: 15px;
+		text-align: center;
+
+		span {
+			display: block;
+			padding-bottom: 5px;
+		}
+	}
+
+	&__name {
+		display: block;
+		text-align: center;
+	}
+
+	&__list {
+		color: red;
+		&__item {
+			color: blue;
+		}
+	}
+
+}
+
